@@ -5,9 +5,9 @@
  *
  * Return: 1 if @node is a leaf, else 0
  */
-int binary_tree_is_leaf(const binary_tree_t *node) 
+int binary_tree_is_leaf(const binary_tree_t *node)
 {
-  if (node == NULL)
-    return (0);
-  return ((!node->left && !node->right) ? 1 : 0); 
+if (node == NULL)
+return (0);
+return ((!node->left && !node->right) ? 1 : 0);
 }
